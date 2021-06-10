@@ -1,0 +1,92 @@
+#logo{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+
+img{
+    width: 100%;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5rem; 
+}
+
+#btnRegistrarme{
+    width: 40%;
+    margin: 0 auto;
+}
+
+#botonR{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#botonR:hover{
+    background-color:rgb(199, 13, 0);
+}
+
+#btnEntrar{
+    width: 15%;
+    margin: 0 auto;
+   float:right;
+   padding:1em;
+}
+
+.body{
+    background-image: url("https://images.unsplash.com/photo-1568542841302-a06eee514ac6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#btnE:hover{
+    background-color:rgb(247, 247, 248);
+    color:rgb(199, 13, 0);
+}
+
+#fondoB{
+    width: 40%;
+    padding-bottom: 5em;
+    padding-right: 5em;
+    padding-left: 5em;
+}
+
+#atras{
+    width: 5%;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+
+.pie{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  @media screen and (max-width:980px){
+    .pie{
+      display: none;
+    }
+
+    #logo{
+        width: 100%;
+    }
+
+    #btnEntrar{
+        width: 20%;
+    }
+
+    #atras{
+        width: 10%;
+    }
+
+    #btnRegistrarme{
+        width: 100%;
+    }
+  }

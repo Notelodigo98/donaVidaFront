@@ -1,0 +1,100 @@
+.atras {
+  position: absolute;
+  width: 10%;
+  padding: 1em;
+}
+
+.btn {
+  color: white;
+  border-color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1568542841302-a06eee514ac6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-bottom: 2em;
+  padding: 0.5em;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.imagenDonacion {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.imagenPuntos {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.centrar {
+  margin-left: 25%;
+}
+
+.centrarPoco {
+  margin-left: 10%;
+}
+
+.centrarMas {
+  margin-left: 35%;
+}
+
+.centrarBotones {
+  margin-left: 45%;
+}
+
+img {
+  margin-bottom: 4em;
+  margin-top: 4em;
+}
+
+.pie {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+@media screen and (max-width:980px){
+
+  .pie{
+    display: none;
+  }
+
+  .btn{
+    padding: 0.5em;
+  }
+
+  .centrar {
+   width: 50%;
+  }
+  
+  .centrarPoco {
+    width: 80%;
+  }
+  
+  .centrarMas {
+    width: 50%;
+  }
+  
+  .centrarBotones {
+    width: 10%;
+  }
+
+  .pieYMenu{
+    width: 100%;
+  }
+}

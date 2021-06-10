@@ -1,0 +1,101 @@
+body {
+  margin: auto;
+}
+
+#grupo {
+  width: 100%;
+  font-size: 45px;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/564x/a0/96/73/a0967380fed223d6c27d895d27c144b9.jpg");
+}
+
+#btn {
+  width: 40%;
+  margin: auto;
+}
+
+#menuGrupo {
+  margin-left: -0.5em !important;
+  font-size: 25px;
+}
+
+#logo {
+  width: 10%;
+  height: 10%;
+  margin-left: 6em;
+}
+
+img{
+width: 100%;
+}
+
+a:hover {
+  color: rgb(199, 13, 0);
+}
+
+#columna_grupos {
+  width: 100%;
+  background-image: url("https://i.pinimg.com/564x/a0/96/73/a0967380fed223d6c27d895d27c144b9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-left: 0em;
+  padding-bottom: 10em;
+}
+
+a {
+  color: rgb(71, 117, 243);
+}
+
+#botones {
+  width: 30%;
+  position: relative;
+  left: 70%;
+}
+
+.corazon {
+  padding-top: 2em;
+}
+
+.reservas {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 2em;
+}
+
+.imgCora{
+  width: 50%;
+}
+
+.row{
+margin-right: 0%;
+}
+
+@media screen and (max-width:980px){
+  #menuGrupo{
+    width: 15%;
+  }
+
+  .corazon{
+    width: 80%;
+  }
+  
+  .pie{
+    display: none;
+  }
+
+  #btn{
+    width: 45%;
+  }
+
+  #logo{
+    width: 20%;
+    margin-left: 3em;
+  }
+}
+
+.pie{
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}

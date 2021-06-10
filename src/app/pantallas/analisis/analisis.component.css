@@ -1,0 +1,46 @@
+#contenedor{
+    width: 85%;
+    margin: auto;
+}
+
+.rowAnalitica{
+    font-size: 20px;
+    padding:1em;
+    background-color: rgb(243, 241, 241);
+    
+}
+
+.linea{
+    border-top: 7px solid white;
+}
+
+.rowbotonVer{
+    padding:1em;
+    background-color: rgb(243, 241, 241);
+}
+
+#botonVer{
+    border-radius: 10%;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color:  rgb(149, 204, 252);
+    color:white;
+    float: right;
+}
+
+#botonVer:hover{
+    background-color:rgb(199, 13, 0);
+}
+
+.pie{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+@media screen and (max-width:980px){
+    .pie{
+      display: none;
+    }
+  
+  }

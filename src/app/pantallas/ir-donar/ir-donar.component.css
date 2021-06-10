@@ -1,0 +1,43 @@
+.lista{
+    padding-top: 2em;
+    width: 25%;
+    margin: 0% auto;
+}
+
+h4{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#contenedor{
+    width: 70%;
+    margin:auto;
+}
+
+.rowPunto{
+    background-color:  rgb(243, 241, 241);
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+}
+
+.contenido{
+    padding-top: 50%;
+}
+
+.linea{
+    border-top: 7px solid white;
+}
+
+.pie{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+@media screen and (max-width:980px){    
+    .pie{
+      display: none;
+    }
+  
+  }

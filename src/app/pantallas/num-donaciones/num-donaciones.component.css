@@ -1,0 +1,100 @@
+#calendario{
+    width: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+h3{
+    text-align: center;
+}
+
+#btnA{
+    margin-top: 2em;
+    width: 50%;
+}
+
+#btnA:hover{
+    background-color: rgb(199, 13, 0);
+    border-color: white;
+}
+
+hr{
+    background-color: rgb(199, 13, 0);
+    padding: 1px;
+}
+
+#donaciones_ante{
+    width: 80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.backLetra{
+    background-image: url("https://i.pinimg.com/564x/fd/69/b8/fd69b886d703fed4a348baf5073e4359.jpg");
+    padding: 1em;
+}
+
+.rowDonacion{
+    background-color:  rgb(243, 241, 241);
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+}
+
+.linea{
+    border-top: 7px solid white;
+}
+
+.rowbotonEliminar{
+    padding:1em;
+    background-color: rgb(243, 241, 241);
+}
+
+#botonEliminar{
+    border-radius: 10%;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color:  rgb(7, 125, 228);
+    color:white;
+    float: right;
+}
+
+#botonEliminar:hover{
+    background-color:rgb(199, 13, 0);
+}
+
+.contenedor{
+    width: 75%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:980px){
+
+    #label{
+        display: block; 
+    }
+    .pie{
+        display: none;
+      }
+    
+
+  }
+
+  .donaciones{
+      width: 80%;
+      margin: auto;
+  }
+
+  
+.pie{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}

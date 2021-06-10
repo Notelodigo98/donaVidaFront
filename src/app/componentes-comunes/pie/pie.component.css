@@ -1,0 +1,21 @@
+#fondoPie {
+  background-color: rgb(149, 204, 252);
+  color: white;
+  padding: 1em;
+  /* position: fixed;
+  left: 0;
+  bottom: 0;*/
+  max-height: 9em; 
+  width: 100%;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(199, 13, 0);
+}

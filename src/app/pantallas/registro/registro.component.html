@@ -1,0 +1,70 @@
+  <div class="body">
+
+  <div class="row" id="btnEntrar">
+        <button type="button" class="btn btn-outline-light" routerLink="/inicio" id="btnE">Entrar</button>
+    </div>
+    <div class="row" id="atras"> <button type="button" class="btn btn-outline-light" routerLink="/"><i class="fas fa-arrow-left"></i></button></div>
+    <div class="row pb-5 form-group" id="formulario">
+        <div class="col-12 bg-light rounded " id="fondoB">
+
+            <div id="logo">
+                <img src="assets/img/logo.png" alt="Logo">
+            </div>
+            <form [formGroup]="donanteForm"> 
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Usuario</label>
+                    <input type="text" class="form-control" formControlName="nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="dni" class="form-label">DNI</label>
+                    <input type="text" class="form-control" formControlName="dni">
+                </div>
+                <div class="mb-3">
+                    <label for="contrasenia" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" formControlName="contrasenia">
+                </div>
+                <div class="mb-3">
+                    <label for="grupo" class="form-label">Grupo Sanguíneo</label>
+                <select class="form-select" aria-label="Default select example" formControlName="grupo">
+                    <option selected value="0">-Ninguno-</option>
+                    <option value="1">A+</option>
+                    <option value="2">AB+</option>
+                    <option value="3">B+</option>
+                    <option value="4">O+</option>
+                    <option value="5">AB-</option>
+                    <option value="6">B-</option>
+                    <option value="7">A-</option>
+                    <option value="8">O-</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="text" class="form-control" formControlName="telefono">
+                </div>
+                <div class="mb-3">
+                    <label for="sexo" class="form-label">Sexo</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" formControlName="sexo" value='1' checked>
+                    <label class="form-check-label">
+                        Mujer
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" formControlName="sexo" value='2'>
+                    <label class="form-check-label">
+                        Hombre
+                    </label>
+                </div>
+                <div id="btnRegistrarme">
+                    <button type="submit" class="btn btn-primary mt-5 " id="botonR" (click)="onSubmit()">Registrarme</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div class="pie">
+    <app-pie></app-pie>
+</div>

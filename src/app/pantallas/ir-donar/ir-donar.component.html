@@ -1,0 +1,30 @@
+<app-menu></app-menu>
+<div class="lista">
+    <h4>Seleccione una provincia</h4>
+    <select class="form-select" aria-label="Seleccione una provincia" [(ngModel)]="provincia"
+        (ngModelChange)="obtenerPuntos($event)">
+        <option selected value="default">-Seleccionar-</option>
+        <option value="sevilla">Sevilla</option>
+        <option value="cadiz">Cadiz</option>
+        <option value="malaga">Málaga</option>
+        <option value="huelva">Huelva</option>
+        <option value="jaen">Jaén</option>
+        <option value="granada">Granada</option>
+        <option value="almeria">Almería</option>
+    </select>
+</div>
+
+<div class="pt-5" id="contenedor">
+    <table class="table table-borderless">
+
+        <tr *ngFor="let item of arrayPuntos" class="linea">
+            <td class="rowPunto">{{item.direccion}} de {{item.horaInicio}} a {{item.horaFin}}</td>
+        </tr>
+
+    </table>
+</div>
+
+
+<div class="pie">
+    <app-pie></app-pie>
+</div>

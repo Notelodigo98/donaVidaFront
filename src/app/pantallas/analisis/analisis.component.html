@@ -1,0 +1,19 @@
+    <app-menu></app-menu>
+ 
+    <div class="row" id="contenedor">
+        <div class="encabezado text-center pt-4 pb-4">
+            <h1>Tus analíticas</h1>
+        </div>
+        <table class="table table-borderless">
+            <tr *ngFor="let item of arrayAnalisis" class="linea">
+                 <td class="rowAnalitica">Analítica del {{item.fecha}}</td>
+                 <td class="rowbotonVer"><button type="button" class="btn btn-light" (click)="ver(item.ruta)" id="botonVer">Ver</button></td>
+            </tr>
+            
+        </table>
+    
+    </div>
+    
+    <div class="pie">
+        <app-pie></app-pie>
+    </div>

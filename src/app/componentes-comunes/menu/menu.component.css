@@ -1,0 +1,49 @@
+#logo {
+  padding-left: 1em;
+  margin-top: 0;
+  width: 50%;
+  height: 40%;
+}
+
+.botonAyuda {
+  display: none;
+}
+
+li {
+  padding-left: 6em;
+  padding-right: 6em;
+  text-align: center;
+}
+
+#menu {
+  background-color: rgb(149, 204, 252);
+  font-weight: bolder;
+}
+
+a:hover {
+  color: rgb(199, 13, 0);
+}
+
+a {
+  color: white;
+}
+
+#btnS:hover {
+  background-color: rgb(199, 13, 0);
+  color: white;
+}
+
+@media screen and (max-width:980px) {
+
+  #links {
+    display: block;
+  }
+
+  .boton {
+    float: right;
+  }
+
+  .botonAyuda{
+     display: block;
+  }
+}
